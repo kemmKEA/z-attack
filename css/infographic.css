@@ -6,6 +6,9 @@
   background-color: var(--info-background-color);
   padding: 0;
 }
+.info-text {
+  overflow: hidden;
+}
 .info-text h2 {
   line-height: 3rem;
   text-align: center;
@@ -28,4 +31,47 @@
   line-height: 1.3;
   margin: 0 0 1.2rem 0;
   padding: 0;
+}
+#info-circle-1,
+#info-text-1,
+#info-circle-2,
+#info-text-2,
+#info-circle-3,
+#info-text-3 {
+  cursor: pointer;
+}
+
+#efficiency {
+  position: relative;
+}
+.hide {
+  visibility: hidden;
+}
+
+.slideInLeft {
+  animation: slideInLeft 1.5s;
+}
+.slideInRight {
+  animation: slideInRight 1.5s;
+}
+
+@keyframes slideInLeft {
+  0% {
+    translate: -110% 0;
+    background-color: var(--info-bg-color-green);
+  }
+  100% {
+    translate: 0 0;
+    background-color: var(--info-bg-color-yellow);
+  }
+}
+@keyframes slideInRight {
+  0% {
+    translate: 110% 0;
+    background-color: var(--info-bg-color-yellow);
+  }
+  100% {
+    translate: 0 0;
+    background-color: var(--info-bg-color-green);
+  }
 }
