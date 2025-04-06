@@ -38,6 +38,7 @@
   --headline1-size: 2rem;
   --headline2-size: 1.5rem;
   --headline3-size: 1.25rem;
+  --headline4-size: 1rem;
   --bodytext-size: 1rem;
   --cta-text-size: 1.25rem;
   --followup-text-size: 0.8rem;
@@ -53,8 +54,9 @@
   --cta-text-color-inverted: #bbc3ca;
   --followup-text-color: #575c61;
   --followup-text-color-inverted: #bbc3ca;
-  --formfield-text-color: #575c61;
-  --form-submit-color: #bbc3ca;
+  --formfield-placeholder-color: #6f90eb;
+  --formfield-text-color: #000000;
+  --form-submit-color: #fff;
   --form-submit-color-inverted: #bbc3ca;
 
   /* Background colors */
@@ -73,11 +75,11 @@
   --cta-text-bg-color-inverted: #dbdde3;
   --followup-text-bg-color: #e8ebee;
   --followup-text-bg-color-inverted: #dbdde3;
-  --form-background-color: #c5c7ce;
-  --form-text-color: #dbdde3;
-  --formfield-background-color: #dbdde3;
-  --formfield-background-color-active: #dbdde3;
-  --form-submit-bg-color: #dbdde3;
+  --form-background-color: #fff;
+  --form-text-color: #000;
+  --formfield-background-color: #fffae2;
+  --formfield-background-color-active: #f8cf00;
+  --form-submit-bg-color: #ff4b00;
   --form-submit-bg-color-inverted: #dbdde3;
 
   /* Info-boxes */
